@@ -23,7 +23,10 @@ class BankAccount:
         if self.__balance >= amount:
             self.__balance -= amount
         else:
-            print('Error: Insufficient funds')
+            print('Error: Insufficient funds') 
+
+        # or 
+        # self.__balance -= abs(amount)
 
       # The get_balance method returns the
       # account balance.
